@@ -1,0 +1,13 @@
+{
+  "name": "coba-map",
+  "version": "1.0.0",
+  "description": "interactive semi 3d map of shopping mall's tenants",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test spesified\" && exit 1",
+    "start": "npx tailwindcss -i ./src/styles/base.css -o ./src/styles/style.css --watch"
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.2.4"
+  }
+}
